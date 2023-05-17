@@ -823,7 +823,11 @@ textarea {
     size: 12px;
     line-height: 1.16;
     letter-spacing: 0.04em;
-    font-size: small;
+    /* font-size: small; */
+}
+
+.form-agreement-link {
+    color: var(--color-iris);
 }
 
 .form-list-btm {
@@ -848,3 +852,4 @@ textarea {
 .btm:hover {
     background-color: var(--color-ocean);
 }
+
