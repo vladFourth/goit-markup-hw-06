@@ -426,17 +426,13 @@
               placeholder="E-mail"
             />
             <button type="submit" class="btn footer-subscribe-btn">
-              <div class="subscribe-btn-position">
-                Subscribe
-                <svg class="btn-link-img">
-                  <use
-                    class="btn-link-icon"
-                    href="/images/icons.svg#icon-frame"
-                    width="24"
-                    hidden="20"
-                  ></use>
-                </svg>
-              </div>
+              Subscribe
+              <svg class="btn-link-img" width="24" height="20">
+                <use
+                  class="btn-link-icon"
+                  href="./images/icons.svg#icon-frame"
+                ></use>
+              </svg>
             </button>
           </form>
         </div>
@@ -466,28 +462,28 @@
                     name="name"
                     autofocus
                   />
+                  <svg class="form-list-icon" width="18" height="18">
+                    <use href="./images/icons.svg#icon-person-form"></use>
+                  </svg>
                 </label>
-                <svg class="form-list-icon" width="12" height="12">
-                  <use href="./images/icons.svg#icon-person-form"></use>
-                </svg>
               </li>
               <li class="form-list">
                 <label class="form-list-label">
                   Phone
                   <input class="form-list-input" type="tel" name="phone" />
+                  <svg class="form-list-icon" width="18" height="24">
+                    <use href="./images/icons.svg#icon-phone-form"></use>
+                  </svg>
                 </label>
-                <svg class="form-list-icon" width="13" height="13">
-                  <use href="./images/icons.svg#icon-phone-form"></use>
-                </svg>
               </li>
               <li class="form-list">
                 <label class="form-list-label">
                   Email
                   <input class="form-list-input" type="email" name="email" />
+                  <svg class="form-list-icon" width="18" height="24">
+                    <use href="./images/icons.svg#icon-email-form"></use>
+                  </svg>
                 </label>
-                <svg class="form-list-icon" width="15" height="12">
-                  <use href="./images/icons.svg#icon-email-form"></use>
-                </svg>
               </li>
               <div class="form-textarea">
                 <label class="form-list-textarea">
@@ -508,9 +504,10 @@
                 name="agreement"
               />
               <label class="form-agreement-text">
-                I accept the terms and conditions of the<a href=""
-                  >Privacy Policy</a
-                >
+                <span class="form-agreement-done"></span>I accept the terms and
+                conditions of the
+
+                <a class="form-agreement-link" href="">Privacy Policy</a>
               </label>
             </div>
 
